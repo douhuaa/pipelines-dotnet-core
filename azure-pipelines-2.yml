@@ -15,4 +15,3 @@ variables:
 steps:
 - script: dotnet build --configuration $(buildConfiguration)
   displayName: 'dotnet build $(buildConfiguration)'
-  arguments: -NoProfile   # 推荐，加上避免 OneDrive profile 干扰
